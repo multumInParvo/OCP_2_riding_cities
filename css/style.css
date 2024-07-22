@@ -1,9 +1,13 @@
 /*GENERAL*/
 :root {
-  --main-color: #E44444; /* var(--main-color) */
-  --second-color: #CD487B; /* var(--second-color) */
-  --light-grey-color: #EDEDED; /* var(--light-grey-color) */
-  --drak-grey-color: #4B4B4B; /* var(--drak-grey-color) */
+	--main-color: #E44444;
+	/* var(--main-color) */
+	--second-color: #CD487B;
+	/* var(--second-color) */
+	--light-grey-color: #EDEDED;
+	/* var(--light-grey-color) */
+	--drak-grey-color: #4B4B4B;
+	/* var(--drak-grey-color) */
 }
 
 body {
@@ -17,7 +21,7 @@ body {
 	max-width: 1440px;
 }
 
-h2, 
+h2,
 h3 {
 	font-family: 'Archivo', sans-serif;
 	font-style: normal;
@@ -71,8 +75,7 @@ section {
 	padding-top: 80px;
 }
 
-h2
-{
+h2 {
 	font-weight: 900;
 	font-size: 35px;
 	line-height: 38px;
@@ -123,10 +126,10 @@ p {
 	background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 
-.whiteContentSection h2,
-.whiteContentSection h3,
-.whiteContentSection p {
-	color:  white;
+.whiteContentSection_h2,
+.whiteContentSection_h3,
+.whiteContentSection_p {
+	color: white;
 }
 
 .textCenter {
@@ -173,13 +176,13 @@ p {
 	border-color: var(--main-color);
 }
 
+.buttonRounded {
+	border-radius: 39px;
+}
+
 .buttonSecondColor {
 	color: var(--second-color);
 	border-color: var(--second-color);
-}
-
-.buttonRounded {
-	border-radius: 39px;
 }
 
 .buttonHighlight:hover {
